@@ -1,0 +1,86 @@
+<html><head>
+                <style>
+                    .linenums {
+                        list-style-type: none;
+                    }
+
+                    .formatted-line-numbers {
+                        display: none;
+                    }
+                    .action-code-block {
+                        display: none;
+                    }
+                    table {
+                        border-collapse: collapse;
+                        width: 100%;
+                    }
+                    table, th, td {
+                        border: 1px solid black;
+                        padding: 8px;
+                        text-align: left;
+                    }
+                </style>
+            </head><body><h1><span class="header-link octicon octicon-link"></span>Module 6 Glossary: Introduction to Reinforcement Learning with Keras</h1><p>Welcome! This alphabetized glossary contains many terms used in this course. Understanding these terms is essential when working in the industry, participating in user groups, and participating in other certificate programs.</p><table>
+<thead>
+<tr>
+<th>Term</th>
+<th>Definition</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>alpha</td>
+<td>The learning rate that determines how much newly acquired information influences the update of the current value or policy.</td>
+</tr>
+<tr>
+<td>Bellman equation</td>
+<td>A necessary condition for optimality associated with the mathematical optimization method known as dynamic programming. It is named after named after Richard E. Bellman.</td>
+</tr>
+<tr>
+<td>Deep Q-networks (DQNs)</td>
+<td>An extension of Q-learning that uses deep neural networks to approximate the Q-value function. It addresses the limitation using a neural network to estimate the Q-values, allowing the algorithm to scale to environments with large or continuous state spaces.</td>
+</tr>
+<tr>
+<td>epsilon</td>
+<td>The exploration rate that controls the probability of choosing a random action instead of the best-known action to encourage exploration of the environment.</td>
+</tr>
+<tr>
+<td>gamma</td>
+<td>The discount factor determines the importance of future rewards relative to immediate rewards in the value function.</td>
+</tr>
+<tr>
+<td>Hyperparameters</td>
+<td>The settings in machine learning models that are set before training and control the learning process, such as learning rate, batch size, and the number of layers.</td>
+</tr>
+<tr>
+<td>OpenAI's Gym</td>
+<td>An open-source Python toolkit that provides developers with a simulated environment to develop and test reinforcement learning agents for deep learning models.</td>
+</tr>
+<tr>
+<td>Q-learning</td>
+<td>An off-policy algorithm that seeks to learn the value of taking a specific action in a given state and aims to find the optimal action-selection policy for an agent.</td>
+</tr>
+<tr>
+<td>Q-network</td>
+<td>A neural network used to approximate the Q-value function, mapping state-action pairs to their expected future rewards.</td>
+</tr>
+<tr>
+<td>Q-table</td>
+<td>A lookup table where each entry estimates the cumulative reward obtained by taking a given action in a given state and following the optimal policy afterward.</td>
+</tr>
+<tr>
+<td>Q-value</td>
+<td>A function that estimates the expected future rewards for taking a specific action in a given state and following the optimal policy thereafter.</td>
+</tr>
+<tr>
+<td>Reinforcement learning</td>
+<td>A powerful paradigm in machine learning that focuses on training agents to make sequences of decisions by maximizing a notion of cumulative reward.</td>
+</tr>
+<tr>
+<td>Supervised learning</td>
+<td>A category of machine learning technology that uses labeled data sets to train algorithms to predict outcomes and recognize patterns.</td>
+</tr>
+<tr>
+<td>Unsupervised learning</td>
+<td>A category of machine learning technology that uses algorithms to analyze and cluster unlabeled data sets.</td>
+</tr>
+</tbody></table><p><img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/ZzqKzMYvDxlItsE7xSlAXw.png" alt=""></p></body></html>

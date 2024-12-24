@@ -1,0 +1,373 @@
+<html>
+  <head>
+    <style>
+      .linenums {
+        list-style-type: none;
+      }
+
+      .formatted-line-numbers {
+        display: none;
+      }
+      .action-code-block {
+        display: none;
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      <span class="header-link octicon octicon-link"></span>Module 4 Glossary:
+      Unsupervised Learning and Generative Models in Keras
+    </h1>
+    <p>
+      Welcome! This alphabetized glossary contains many terms used in this
+      course. Understanding these terms is essential when working in the
+      industry, participating in user groups, and participating in other
+      certificate programs.
+    </p>
+    <table>
+      <thead>
+        <tr>
+          <th>Term</th>
+          <th>Definition</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Anomaly detection</td>
+          <td>
+            A type of unsupervised learning used to identify unusual data points
+            that do not fit the general pattern in a dataset.
+          </td>
+        </tr>
+        <tr>
+          <td>Adam Optimizer</td>
+          <td>
+            An optimization algorithm that can be used instead of the classical
+            stochastic gradient descent procedure to update network weights
+            iteratively based on training data.
+          </td>
+        </tr>
+        <tr>
+          <td>Adversarial training</td>
+          <td>
+            A training method in GANs where the generator and discriminator
+            networks are trained simultaneously, with the generator aiming to
+            fool the discriminator, and the discriminator trying to accurately
+            classify real and fake data.
+          </td>
+        </tr>
+        <tr>
+          <td>Autoencoders</td>
+          <td>
+            A type of neural network used to learn efficient representations of
+            data, often for dimensionality reduction or feature learning.
+          </td>
+        </tr>
+        <tr>
+          <td>Binary crossentropy loss</td>
+          <td>
+            A loss function used in binary classification tasks, often utilized
+            in training neural networks to measure the difference between
+            predicted and actual outputs.
+          </td>
+        </tr>
+        <tr>
+          <td>Bottleneck</td>
+          <td>
+            The central, most compressed layer in an autoencoder that contains
+            the most critical features of the input data.
+          </td>
+        </tr>
+        <tr>
+          <td>Clustering</td>
+          <td>
+            A method in unsupervised learning that involves grouping data points
+            into clusters, where data points in the same cluster are more
+            similar to each other.
+          </td>
+        </tr>
+        <tr>
+          <td>Convolutional autoencoders</td>
+          <td>
+            A type of autoencoder that uses convolutional layers, making it
+            particularly effective for tasks involving image data.
+          </td>
+        </tr>
+        <tr>
+          <td>Convolutional neural network (CNN)</td>
+          <td>
+            A type of deep neural network commonly used in image processing
+            tasks, known for its ability to capture spatial hierarchies in
+            images.
+          </td>
+        </tr>
+        <tr>
+          <td>Data augmentation</td>
+          <td>
+            A technique used to increase the diversity of data available for
+            training models by generating new synthetic data, often by applying
+            transformations to existing data.
+          </td>
+        </tr>
+        <tr>
+          <td>Decoder</td>
+          <td>
+            The part of an autoencoder that reconstructs the input data from the
+            compressed latent space representation.
+          </td>
+        </tr>
+        <tr>
+          <td>Denoising</td>
+          <td>
+            The process of removing noise from data, such as images, to improve
+            their quality.
+          </td>
+        </tr>
+        <tr>
+          <td>Diffusion</td>
+          <td>
+            A physical process where particles spread from regions of high
+            concentration to low concentration; in diffusion models, this
+            concept is simulated to generate or enhance data.
+          </td>
+        </tr>
+        <tr>
+          <td>Diffusion model</td>
+          <td>
+            A type of probabilistic generative model that iteratively refines
+            noisy data to produce high-quality samples, often used in image
+            generation.
+          </td>
+        </tr>
+        <tr>
+          <td>Dimensionality reduction</td>
+          <td>
+            A process in unsupervised learning that reduces the number of random
+            variables under consideration by obtaining a set of principal
+            variables.
+          </td>
+        </tr>
+        <tr>
+          <td>Discriminator network</td>
+          <td>
+            In a generative adversarial network (GAN), this network evaluates
+            the authenticity of the generated data, distinguishing between real
+            and fake data.
+          </td>
+        </tr>
+        <tr>
+          <td>Encoder</td>
+          <td>
+            The part of an autoencoder that compresses the input data into a
+            latent-space representation.
+          </td>
+        </tr>
+        <tr>
+          <td>Epochs</td>
+          <td>
+            In machine learning, an epoch refers to one complete pass of the
+            training dataset through the learning algorithm.
+          </td>
+        </tr>
+        <tr>
+          <td>Feature learning</td>
+          <td>
+            A set of techniques that allow a machine to automatically discover
+            the representations needed for feature detection or classification
+            from raw data.
+          </td>
+        </tr>
+        <tr>
+          <td>Forward process</td>
+          <td>
+            In diffusion models, the process of gradually adding noise to data
+            over a series of steps.
+          </td>
+        </tr>
+        <tr>
+          <td>Functional API</td>
+          <td>
+            A way to build neural networks in Keras that allows for more
+            flexible model architectures than the Sequential API.
+          </td>
+        </tr>
+        <tr>
+          <td>Generative adversarial networks (GANs)</td>
+          <td>
+            A class of neural networks where two networks, the generator and the
+            discriminator, compete against each other, leading to the generation
+            of realistic data.
+          </td>
+        </tr>
+        <tr>
+          <td>Generator</td>
+          <td>
+            In GANs, the neural network creates synthetic data from random
+            noise, aiming to produce data that closely resembles real data.
+          </td>
+        </tr>
+        <tr>
+          <td>Image-to-image translation</td>
+          <td>
+            A task in computer vision where an image from one domain is
+            transformed into an image in another domain, such as converting a
+            sketch into a photo.
+          </td>
+        </tr>
+        <tr>
+          <td>K-means algorithm</td>
+          <td>
+            A popular clustering technique that partitions a dataset into
+            distinct groups based on the features of the data points.
+          </td>
+        </tr>
+        <tr>
+          <td>Keras</td>
+          <td>
+            An open-source software library that provides a Python interface for
+            artificial neural networks and is used to create deep learning
+            models.
+          </td>
+        </tr>
+        <tr>
+          <td>Latent-space representation</td>
+          <td>
+            The compressed version of input data generated by the encoder in an
+            autoencoder.
+          </td>
+        </tr>
+        <tr>
+          <td>MNIST dataset</td>
+          <td>
+            A large database of handwritten digits that is commonly used for
+            training image processing systems and machine learning models.
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Modified National Institute of Standards and Technology (MNIST)
+            Dataset
+          </td>
+          <td>
+            A large database of handwritten digits commonly used for training
+            various image processing systems.
+          </td>
+        </tr>
+        <tr>
+          <td>Neural network architecture</td>
+          <td>
+            The structured layout of a neural network, including its layers,
+            connections, and the flow of information within it.
+          </td>
+        </tr>
+        <tr>
+          <td>Normalization</td>
+          <td>
+            The process of scaling input features so they have a mean of zero
+            and a standard deviation of one, often used to improve the
+            performance of neural networks.
+          </td>
+        </tr>
+        <tr>
+          <td>Principal component analysis (PCA)</td>
+          <td>
+            A dimensionality reduction technique that transforms data into a set
+            of linearly uncorrelated variables called principal components.
+          </td>
+        </tr>
+        <tr>
+          <td>Probabilistic model</td>
+          <td>
+            A model that incorporates randomness and uncertainty, often used to
+            predict distributions or simulate processes that have inherent
+            variability.
+          </td>
+        </tr>
+        <tr>
+          <td>Reverse process</td>
+          <td>
+            In diffusion models, the process of removing noise step by step to
+            reconstruct the original data from a noisy sample.
+          </td>
+        </tr>
+        <tr>
+          <td>Stochastic gradient descent (SGD)</td>
+          <td>
+            An optimization method that adjusts weights iteratively based on a
+            subset of training data, used in training neural networks.
+          </td>
+        </tr>
+        <tr>
+          <td>Supervised learning</td>
+          <td>
+            A type of machine learning where the algorithm is trained on labeled
+            data, meaning the outcome or target variable is known during
+            training.
+          </td>
+        </tr>
+        <tr>
+          <td>t-distributed stochastic neighbor embedding (t-SNE)</td>
+          <td>
+            A dimensionality reduction technique used for visualizing
+            high-dimensional data by giving each datapoint a location in a two
+            or three-dimensional map.
+          </td>
+        </tr>
+        <tr>
+          <td>TensorFlow</td>
+          <td>
+            An open-source machine learning library developed by Google, widely
+            used for building and training machine learning models.
+          </td>
+        </tr>
+        <tr>
+          <td>Text-to-image synthesis</td>
+          <td>
+            A process where a model generates an image based on a textual
+            description provided as input.
+          </td>
+        </tr>
+        <tr>
+          <td>Training epoch</td>
+          <td>
+            A single pass through the entire training dataset during the
+            training process of a machine learning model.
+          </td>
+        </tr>
+        <tr>
+          <td>Unsupervised learning</td>
+          <td>
+            A type of machine learning that finds patterns in data without any
+            labels or predefined outcomes.
+          </td>
+        </tr>
+        <tr>
+          <td>Variational autoencoders (VAEs)</td>
+          <td>
+            A type of autoencoder that introduces probabilistic elements to
+            generate new data samples, often used in generative models.
+          </td>
+        </tr>
+        <tr>
+          <td>Zero-Sum Game</td>
+          <td>
+            A situation in competitive contexts where gain or loss of
+            participants is exactly balanced by the losses or gains of another
+            participant.
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
