@@ -1,2 +1,4 @@
 sample.jpg
 sample_data
+.DS_Store
+*.keras
